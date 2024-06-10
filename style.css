@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'burb';
+    src: url('burbank.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: burb, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: #38d9f5; 
+}
+
+header {
+    background-color: #120af5; /* Blue background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 0;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    vertical-align: middle;
+    align-items: center; /* Align items vertically in the center */
+}
+
+nav ul li {
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+#button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    height: 100vh; /* Full viewport height */
+}
+
+.column {
+    padding: 20px;
+}
+
+
+
+h1{
+    font-family: burb;
+    font-size: 100px;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#modelImage{
+    height: 100%;
+    width: 80%;
+}
+
+#diver{
+    width: 100%;
+}
+
+#badgeImage{
+
+    width: 40%;
+    height: 40%;
+}
